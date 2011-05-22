@@ -1,0 +1,78 @@
+/*
+Theme Name: Coming 5oon.
+Theme URI: http://thecloud99.com
+Description: HTML5 + CSS3 Coming Soon / Under Construction Page
+Author: flash
+Author URI: http://thecloud99.com
+Version: 1.0 
+Tags: fluid-width, custom-header, custom-background, microformats, custom-menu (optional)
+
+License: WTFPL
+License URI: http://en.wikipedia.org/wiki/WTFPL
+*/
+
+/*	Global */
+* {margin:0; padding:0;}
+html, body {width:100%; height:100%;}
+#wrap {width:960px; margin:0 auto;}
+#wpadminbar {display:none;}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+figure {position: relative;}
+figure img {width: 100%;}
+
+a:link, a:visited { color: #000; text-decoration: none; }
+a:hover, a:active { color:#ff00ff; text-decoration:underline;}
+
+::selection	{background: rgb(255,255,0);}
+::-moz-selection {background: rgb(255,255,0);}
+img::selection {background: transparent;}
+img::-moz-selection {background: transparent;}
+header {background: #fff; position: fixed; z-index: 10; width:960px; height:100px; line-height:100px; margin-top:-30px;}
+nav {float: right; margin-top:-100px;}
+nav ul li {display:inline-block; margin-left:15px;}
+section { margin-bottom: 1000px; padding-top: 150px; height:100%;}
+section:first-child {padding-top:0;}
+/*	13-column layout */
+@media only screen and (min-width: 1212px) {
+	body {width: 80%; background: #fff; color:#000; margin:0 auto;}	
+
+}
+
+/*	8-column layout */
+@media only screen and (max-width: 1211px) and (min-width: 768px) {
+
+body {color:#00ff00;}
+
+}
+
+/*	5-column layout */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+
+	body {
+		margin:0 auto;
+		width: 396px;
+		color: #ff00ff;
+		/* Prevents Mobile Safari from bumping up font sizes in landscape */
+		-webkit-text-size-adjust: 100%; 
+	}
+	nav {float:left;}
+}
+
+/*	3-column layout */
+@media only screen and (max-width: 479px) {
+	body {
+		margin:0 auto;
+		width: 228px;
+		color: #00ffff;
+		/* Prevents Mobile Safari from bumping up font sizes in landscape */
+		-webkit-text-size-adjust: 100%;
+	}
+	nav {float:left;}
+}
