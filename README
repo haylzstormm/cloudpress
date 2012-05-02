@@ -3,7 +3,3 @@ CloudPress is a one page WordPress theme.
 To use the theme:
 
 You will need to edit the lines of code that look like <code> $page_id = 57; </code> in index.php to reflect your page ids (( to find out your page id go to Pages && hover over the page you want the id of -> while hovering over the page name you'll see yoursite.com/wp-admin/post.php?post=PageID&action=edit in the status bar where PageID is the page's id # ))
-
-I suggest using WP-Cycle (( http://wordpress.org/extend/plugins/wp-cycle/ )) w/ 960x450 dimensions for the intro section && Contact Form 7 (( http://wordpress.org/extend/plugins/contact-form-7/ )) for contact form integration.
-
-If you need any help email hayz  at thecloud99 dot com (:
